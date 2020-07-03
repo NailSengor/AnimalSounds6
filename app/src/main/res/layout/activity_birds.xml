@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sky2"
+
+
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnSound1"
+            android:layout_width="100dp"
+            android:layout_marginEnd="45dp"
+            android:layout_height="100dp"
+            android:onClick="playSound"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="9dp"
+            android:textColor="#FFF"
+            android:background="@drawable/baykus"
+            />
+        <Button
+            android:id="@+id/btnSound2"
+            android:layout_width="100dp"
+            android:layout_marginEnd="45dp"
+            android:layout_height="100dp"
+            android:onClick="playSound"
+            android:layout_marginTop="20dp"
+            android:text="akbaba"
+            android:textAlignment="center"
+
+            android:background="@drawable/akbaba"
+            />
+        <Button
+            android:id="@+id/btnSound3"
+            android:layout_width="100dp"
+            android:layout_marginEnd="45dp"
+            android:layout_height="100dp"
+            android:onClick="playSound"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFF"
+            android:background="@drawable/atmaca"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSound4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginEnd="45dp"
+            android:background="@drawable/flamingo"
+            android:onClick="playSound"
+
+            android:textColor="#FFF" />
+        <Button
+            android:id="@+id/btnSound5"
+            android:layout_width="100dp"
+            android:layout_marginEnd="45dp"
+            android:layout_height="100dp"
+            android:onClick="playSound"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFF"
+            android:background="@drawable/toucan"
+            />
+        <Button
+            android:id="@+id/btnSound6"
+            android:layout_width="100dp"
+            android:layout_marginEnd="45dp"
+            android:layout_height="100dp"
+            android:onClick="playSound"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFF"
+            android:background="@drawable/papagan2"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnSound7"
+            android:layout_width="100dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginStart="9dp"
+            android:layout_height="100dp"
+            android:onClick="playSound"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFF"
+            android:background="@drawable/guvercin"
+            />
+        <Button
+            android:id="@+id/btnSound8"
+            android:layout_width="100dp"
+            android:layout_marginEnd="45dp"
+            android:layout_height="100dp"
+            android:onClick="playSound"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFF"
+            android:background="@drawable/serce"
+            />
+        <Button
+            android:id="@+id/btnSound9"
+            android:layout_width="100dp"
+            android:layout_marginEnd="45dp"
+            android:layout_height="100dp"
+            android:onClick="playSound"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFF"
+            android:background="@drawable/penguen2"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnSound10"
+            android:layout_width="100dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginStart="9dp"
+            android:layout_height="100dp"
+            android:onClick="playSound"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFF"
+            android:background="@drawable/ordek"
+            />
+        <Button
+            android:id="@+id/btnSound11"
+            android:layout_width="100dp"
+            android:layout_marginEnd="45dp"
+            android:layout_height="100dp"
+            android:onClick="playSound"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFF"
+            android:background="@drawable/kaz"
+            />
+        <Button
+            android:id="@+id/btnSound12"
+            android:layout_width="100dp"
+            android:layout_marginEnd="45dp"
+            android:layout_height="100dp"
+            android:onClick="playSound"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFF"
+            android:background="@drawable/hindi"
+            />
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="411dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-3940256099942544/6300978111"></com.google.android.gms.ads.AdView>
+
+
+</LinearLayout>
